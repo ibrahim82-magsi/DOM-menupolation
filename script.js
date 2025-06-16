@@ -6,4 +6,11 @@
 //  heading.innerHTML = "Welcome"
 
 
+// Q2
 
+var input = document.querySelector("#nameInput");
+var result = document.querySelector("#result")
+function getResult() {
+    result.innerHTML = input.value
+    
+}
