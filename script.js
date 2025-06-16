@@ -2,6 +2,5 @@
 
 // Select a paragraph with id "message" and change its text to "Welcome!"
 
-document.getElementById("message").innerHTML="changed throuh Javascript";
-
-
+ var heading = document.querySelector("#message");
+ heading.innerHTML = "Welcome"
